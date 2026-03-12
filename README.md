@@ -1,16 +1,56 @@
-# React + Vite
+🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built to showcase my projects, technical skills, and development journey. The website highlights my work, provides information about my background, and allows visitors to explore my projects and contact me.
 
-Currently, two official plugins are available:
+Responsive design for all devices 📱💻
+Modern and clean UI
+Smooth navigation between sections
+Projects showcase
+Skills section
+Social media links
+Contact section
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+Frontend
+React.js
+CSS
+HTML
 
-## React Compiler
+Libraries
+React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Project Structure
+portfolio/
+│
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   │   ├── Home.jsx
+│   │   ├── Navbar.jsx
+│   │   └── ...
+│   ├── App.jsx
+│   └── index.js
+│
+└── package.json
+⚙️ Installation
 
-## Expanding the ESLint configuration
+Clone the repository:
+git clone https://github.com/ayushkumar1420/portfolio.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Go to the project folder:
+cd portfolio
+Install dependencies:
+npm install
+Run the development server:
+npm run dev
+
+👨‍💻 Author
+Ayush Kumar
+
+GitHub: https://github.com/ayushkumar1420
+LinkedIn: (https://www.linkedin.com/in/ayush-kumar-83a969347?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+
+📜 License
+This project is open source and available under the MIT License.
