@@ -1,11 +1,24 @@
 import React from 'react';
-import Spline from '@splinetool/react-spline';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div>
-      <Spline scene="https://prod.spline.design/umRKD4S774qmLDwY/scene.splinecode" />
+    <div className="app-container">
+      <Navbar />
+      <main>
+        <Home />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }
-
