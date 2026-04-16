@@ -8,29 +8,17 @@ export default function About() {
       <div className="about-content glass-panel">
         <div className="about-text">
           <p>
-            Hello! I'm a passionate developer with a love for creating interactive and 
-            user-friendly web experiences. I constantly explore new technologies and 
-            strive to build applications that are not only functional but also visually stunning.
+            Hi, I’m Ayush Kumar, a pre-final year B.Tech student in Information Technology with a strong focus on Full Stack Development and Data Structures & Algorithms in C++.
+            I regularly practice data structures and algorithms in C++, which has strengthened my logical thinking, coding efficiency, and ability to approach complex problems in a structured way.
+            On the development side, I work on full-stack applications using HTML, CSS, JavaScript, React, Next.js, and Express.js, along with databases like MongoDB, Supabase, and Firebase. 
           </p>
           <p>
-            When I'm not coding, you can find me designing, reading up on the latest tech trends, 
-            or working on some personal open-source projects.
+            I have hands-on experience building applications that include authentication systems, backend APIs, and admin dashboards.
+            Apart from development, I also have experience in video editing and motion graphics, which enhances my creativity and helps me design better user interfaces and visual content.
           </p>
-          
-          <div className="stats">
-            <div className="stat-item">
-              <h3>3+</h3>
-              <span>Years Exp.</span>
-            </div>
-            <div className="stat-item">
-              <h3>20+</h3>
-              <span>Projects</span>
-            </div>
-            <div className="stat-item">
-              <h3>100%</h3>
-              <span>Passion</span>
-            </div>
-          </div>
+          <p>
+            I am a disciplined and consistent learner, always focused on improving my technical skills and building impactful projects. My goal is to grow into a skilled software developer who can solve real-world problems efficiently.
+          </p>
         </div>
       </div>
     </section>

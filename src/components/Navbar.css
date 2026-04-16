@@ -8,6 +8,7 @@
   align-items: center;
   transition: all 0.3s ease;
   z-index: 1000;
+  background: var(--glass-bg) ;
 }
 
 .navbar.scrolled {
