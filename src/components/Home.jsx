@@ -6,11 +6,12 @@ export default function Home() {
     <section id="home" className="home-section container">
       <div className="home-content animate-fade-up">
         <h3 className="greeting">Hello, I'm</h3>
-        <h1 className="name">Your Name</h1>
-        <h2 className="role">Creative Developer</h2>
+        <h1 className="name">Ayush Kumar</h1>
+        <h2 className="role">I'm a Full Stack Developer</h2>
         <p className="description">
           I build beautiful, interactive, and high-performance web applications.
-          Let's create something truly amazing together.
+          Crafting immersive digital experiences with cutting-edge technology. Turning ideas into an
+          elegant, user-centered solutions.
         </p>
         <div className="cta-group">
           <a href="#projects" className="btn btn-primary">View My Work</a>

@@ -5,6 +5,7 @@
 
 .home-content {
   max-width: 600px;
+  text-align: center;
 }
 
 .greeting {
@@ -20,15 +21,18 @@
   font-size: 4rem;
   font-weight: 800;
   line-height: 1.1;
+  letter-spacing: 1px;
+  font-family: sans-serif;
   margin-bottom: 1rem;
-  color: var(--text-primary);
+  color: rgb(255, 255, 255);
 }
 
 .role {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .description {
@@ -41,6 +45,8 @@
 .cta-group {
   display: flex;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -50,8 +56,8 @@
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
-  display: inline-block;
   font-size: 1rem;
+  
 }
 
 .btn-primary {
