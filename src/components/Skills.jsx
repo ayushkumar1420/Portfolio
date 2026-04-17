@@ -1,13 +1,17 @@
 import React from 'react';
 import './Skills.css';
 
-const dummySkills = [
-  { name: 'JavaScript', level: 90 },
-  { name: 'React & Redux', level: 85 },
+const mySkills = [
+  { name: 'HTML', level: 90 },
+  { name: 'CSS', level: 90 },
+  { name: 'JavaScript', level: 60 },
+  { name: 'React & Redux', level: 75 },
   { name: 'Node.js', level: 80 },
-  { name: 'UI/UX Design', level: 75 },
-  { name: 'CSS / SCSS', level: 95 },
+  { name: 'UI/UX Design', level: 95 },
+  { name: 'SQL', level: 70 },
   { name: 'Python', level: 70 },
+  { name: 'Flutter', level: 30 },
+  { name: 'After Effect', level: 50 },
 ];
 
 export default function Skills() {
@@ -15,7 +19,7 @@ export default function Skills() {
     <section id="skills" className="skills-section container">
       <h2 className="section-title">My Skills</h2>
       <div className="skills-container glass-panel">
-        {dummySkills.map(skill => (
+        {mySkills.map(skill => (
           <div key={skill.name} className="skill-item">
             <div className="skill-info">
               <span className="skill-name">{skill.name}</span>

@@ -9,7 +9,7 @@ export default function Contact() {
         <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" placeholder="John Doe" />
+            <input type="text" id="name" placeholder="John khan" />
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
@@ -17,7 +17,7 @@ export default function Contact() {
           </div>
           <div className="form-group">
             <label htmlFor="message">Message</label>
-            <textarea id="message" rows="5" placeholder="Your message here..."></textarea>
+            <textarea id="message" rows="5" placeholder="Write message here...."></textarea>
           </div>
           <button type="submit" className="btn btn-primary submit-btn">Send Message</button>
         </form>
@@ -28,8 +28,8 @@ export default function Contact() {
             or just want to say hi, I'll try my best to get back to you!
           </p>
           <div className="contact-details">
-            <p><strong>Email:</strong> hello@example.com</p>
-            <p><strong>Location:</strong> San Francisco, CA</p>
+            <p><strong>Email:</strong> ayushmaurya496@gmail.com</p>
+            <p><strong>Location:</strong> Gorakhpur, UP</p>
           </div>
         </div>
       </div>
