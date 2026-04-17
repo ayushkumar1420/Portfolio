@@ -19,6 +19,7 @@ export default function About() {
           <p>
             I am a disciplined and consistent learner, always focused on improving my technical skills and building impactful projects. My goal is to grow into a skilled software developer who can solve real-world problems efficiently.
           </p>
+
         </div>
       </div>
     </section>
