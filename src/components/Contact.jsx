@@ -1,26 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 
 export default function Contact() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "db826db4-40e4-4f63-84ae-50fa78a02e60");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    setResult(data.success ? "Success!" : "Error");
+  };
+
   return (
     <section id="contact" className="contact-section container">
       <h2 className="section-title">Get In Touch</h2>
       <div className="contact-container glass-panel">
-        <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+        <form className="contact-form" onSubmit={onSubmit}>
+          
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" placeholder="John khan" />
+            <input type="text" id="name" name="name" placeholder="John Khan" />
           </div>
+
           <div className="form-group">
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" placeholder="john@example.com" />
+            <input type="email" id="email" name="email" placeholder="john@example.com" />
           </div>
+
           <div className="form-group">
             <label htmlFor="message">Message</label>
-            <textarea id="message" rows="5" placeholder="Write message here...."></textarea>
+            <textarea id="message" name="message" rows="5" placeholder="Write message here...."></textarea>
           </div>
-          <button type="submit" className="btn btn-primary submit-btn">Send Message</button>
+
+          <button type="submit" className="btn btn-primary submit-btn">
+            Send Message
+          </button>
+
+          {result && <p>{result}</p>}
         </form>
+
         <div className="contact-info">
           <h3>Let's Connect</h3>
           <p>
