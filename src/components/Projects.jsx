@@ -1,18 +1,18 @@
 import React from 'react';
 import './Projects.css';
 
-const dummyProjects = [
+const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB.',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    title: 'CampusConnect',
+    description: 'A modern, web-based student portal designed to simplify and centralize campus interactions. It provides a seamless platform for students to register, log in, and access personalized dashboards.',
+    tags: ['React', 'CSS', 'MongoDB'],
   },
   {
     id: 2,
-    title: 'Social Media Dashboard',
-    description: 'Analytics dashboard with beautiful charts and real-time data integration.',
-    tags: ['React', 'Chart.js', 'Firebase'],
+    title: 'Intelligence Attendance',
+    description: 'An Automated Student Attendance Monitoring and Analytics System that uses facial recognition to automatically record, verify, and update student attendance, generating analytics for monitoring participation.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Face Recognition'],
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export default function Projects() {
     <section id="projects" className="projects-section container">
       <h2 className="section-title">My Projects</h2>
       <div className="projects-grid">
-        {dummyProjects.map(project => (
+        {projects.map(project => (
           <div key={project.id} className="project-card glass-panel">
             <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.description}</p>
