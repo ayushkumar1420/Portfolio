@@ -2,12 +2,12 @@ import React from 'react';
 import './Skills.css';
 
 const mySkills = [
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 90 },
+  { name: 'HTML', level: 80 },
+  { name: 'CSS', level: 80 },
   { name: 'JavaScript', level: 60 },
   { name: 'React & Redux', level: 75 },
-  { name: 'Node.js', level: 80 },
-  { name: 'UI/UX Design', level: 95 },
+  { name: 'Node.js', level: 60 },
+  { name: 'UI/UX Design', level: 90 },
   { name: 'SQL', level: 70 },
   { name: 'Python', level: 70 },
   { name: 'Flutter', level: 30 },
