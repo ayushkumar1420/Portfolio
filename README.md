@@ -1,16 +1,64 @@
-# React + Vite
+🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern portfolio website built using React, showcasing my projects, skills, and experience as a Full Stack Developer. It also includes a working contact form powered by Web3Forms for seamless communication.
 
-Currently, two official plugins are available:
+🚀 Features
+✨ Fully responsive design
+⚛️ Built with React.js
+🎨 Styled using pure CSS
+📂 Projects section with details
+👨‍💻 About Me section
+📞 Functional contact form (Web3Forms integration)
+⚡ Fast and optimized performance
+🛠️ Tech Stack
+Frontend: React.js, JavaScript
+Styling: CSS
+Form Handling: Web3Forms
+Version Control: Git & GitHub
+Deployment: Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Demo
 
-## React Compiler
+👉 https://portfolio-blond-mu-29.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Project Structure
+portfolio/
+│── public/
+│── src/
+|   |── assets/
+│   ├── components/
+│   ├── app.js
+│   ├── index.css
+│   ├── main.jsx
+│── package.json
+│── README.md
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Installation & Setup
+Clone the repository
+git clone https://github.com/ayushkumar1420/portfolio.git
+Navigate to the project directory
+cd portfolio
+Install dependencies
+npm install
+Start the development server
+npm start
+📞 Contact Form Integration
+
+This project uses Web3Forms to handle contact form submissions without a backend.
+
+Collects user data (name, email, message)
+Sends responses directly to your email
+No server-side code required
+
+📬 Contact
+📧 Email: ayushmaurya496@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/ayush-kumar-83a969347?utm_source=share_via&utm_content=profile&utm_medium=member_android
+💻 GitHub: https://github.com/ayushkumar1420
+
+
+📌 Future Improvements
+Add animations and transitions
+Improve UI/UX design
+Add more projects
+Implement dark mode
