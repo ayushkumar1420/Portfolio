@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 4rem;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
 }
 
 .contact-form {

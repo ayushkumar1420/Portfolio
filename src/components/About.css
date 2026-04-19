@@ -1,9 +1,11 @@
+
 .about-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
 }
 
 .about-text {
