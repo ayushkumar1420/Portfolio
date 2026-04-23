@@ -41,6 +41,24 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
+.form-group input.error,
+.form-group textarea.error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.error-text {
+  color: #ef4444;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.success-text {
+  color: #10b981;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
 .submit-btn {
   width: max-content;
   margin-top: 1rem;
