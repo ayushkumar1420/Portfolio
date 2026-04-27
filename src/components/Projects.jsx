@@ -16,9 +16,9 @@ const projects = [
   },
   {
     id: 3,
-    title: 'AI Companion App',
-    description: 'The AI Companion App connects users with real people or an AI for meaningful conversations, ensuring constant interaction through an AI fallback when no users are available..',
-    tags: ['MERN', 'Flutter', 'Python', 'Flask', 'Firebase', ],
+    title: 'Neublix Saas',
+    description: 'This full-stack application combines authentication, payments, AI processing, and a scalable database into a complete production-ready SaaS solution.',
+    tags: ['Next.js', 'Typescript', 'Sentry', 'API routes', 'Neon', ],
   }
 ];
 
