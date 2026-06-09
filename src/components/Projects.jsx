@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     title: 'Intelligence Attendance',
     description: 'An Automated Student Attendance Monitoring and Analytics System that uses facial recognition to automatically record, verify, and update student attendance, generating analytics for monitoring participation.',
-    tags: ['React', 'MERN', 'SQL', 'Python', 'OpenCV'],
+    tags: ['React', 'MERN', 'MongoDB', 'webcapture.js', 'api.js'],
   },
   {
     id: 3,

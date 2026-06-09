@@ -5,13 +5,11 @@ const mySkills = [
   { name: 'HTML', level: 80 },
   { name: 'CSS', level: 80 },
   { name: 'JavaScript', level: 60 },
-  { name: 'React & Redux', level: 75 },
+  { name: 'React', level: 75 },
   { name: 'Node.js', level: 60 },
   { name: 'UI/UX Design', level: 90 },
-  { name: 'SQL', level: 70 },
-  { name: 'Python', level: 70 },
-  { name: 'Flutter', level: 30 },
-  { name: 'After Effect', level: 50 },
+  { name: 'SQL', level: 50 },
+  { name: 'Python', level: 60 },
 ];
 
 export default function Skills() {
