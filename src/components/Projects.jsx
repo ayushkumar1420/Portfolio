@@ -31,7 +31,14 @@ const projects = [
     title: 'AI Second Brain',
     description: 'AI Second Brain is a personal knowledge management platform built with React, Firebase, and Gemini AI. Users can save notes, PDFs, and links, generate AI summaries, perform semantic searches, and chat with their own knowledge base using RAG, embeddings, and vector search.',
     tags: ['React.js', 'Google Gemini AI', 'Firebase', 'API routes', 'Neon', ],
+  },
+  {
+    id: 6,
+    title: 'Notice Board',
+    description: 'A modern, full-stack Notice Board application built with Next.js, Tailwind CSS, and Prisma. It allows users to easily create, categorize (Exams, Events, General), and prioritize announcements. ',
+    tags: ['Next.js', 'Node.js', 'Tailwind css', 'Neon', ],
   }
+  
 ];
 
 export default function Projects() {
