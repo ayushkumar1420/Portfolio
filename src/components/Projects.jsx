@@ -21,10 +21,16 @@ const projects = [
     tags: ['Next.js', 'Typescript', 'Sentry', 'API routes', 'Neon', ],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Chat app',
-    description: 'This full-stack application combines authentication, payments, AI processing, and a scalable database into a complete production-ready SaaS solution.',
+    description: 'A full-stack real-time messaging platform built with the MERN stack (MongoDB, Express, React, Node.js) featuring secure authentication, real-time messaging with Socket.io, and modern UI design using Tailwind CSS.',
     tags: ['React.js', 'Cloudinary', 'Socket.io', 'API routes', 'MongoDB', ],
+  },
+  {
+    id: 5,
+    title: 'AI Second Brain',
+    description: 'AI Second Brain is a personal knowledge management platform built with React, Firebase, and Gemini AI. Users can save notes, PDFs, and links, generate AI summaries, perform semantic searches, and chat with their own knowledge base using RAG, embeddings, and vector search.',
+    tags: ['React.js', 'Google Gemini AI', 'Firebase', 'API routes', 'Neon', ],
   }
 ];
 
