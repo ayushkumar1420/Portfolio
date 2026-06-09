@@ -19,6 +19,12 @@ const projects = [
     title: 'Neublix Saas',
     description: 'This full-stack application combines authentication, payments, AI processing, and a scalable database into a complete production-ready SaaS solution.',
     tags: ['Next.js', 'Typescript', 'Sentry', 'API routes', 'Neon', ],
+  },
+  {
+    id: 3,
+    title: 'Chat app',
+    description: 'This full-stack application combines authentication, payments, AI processing, and a scalable database into a complete production-ready SaaS solution.',
+    tags: ['React.js', 'Cloudinary', 'Socket.io', 'API routes', 'MongoDB', ],
   }
 ];
 
