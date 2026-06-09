@@ -39,8 +39,9 @@ export default function Contact() {
       if (data.success) {
         event.target.reset();
       }
-    } catch (err) {
-      setResult("Error! Please try again later.");
+    } catch (error) {
+      console.log("Error! Please try again later.", error);
+      // setResult("Error! Please try again later.");
     }
   };
 
